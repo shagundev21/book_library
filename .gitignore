@@ -1,0 +1,40 @@
+# Laravel & Composer
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/.env
+/.env.*.php
+/.phpunit.result.cache
+
+# IDE and OS specific files
+/.idea
+/.vscode
+/.DS_Store
+Thumbs.db
+
+# Laravel 7+ specific
+/.php-cs-fixer.cache
+/.vagrant
+
+# Logs and database backups
+/storage/logs
+/storage/framework/sessions
+/storage/framework/views
+/storage/database
+/storage/backups
+
+# Compiled files
+/public/hot
+/public/mix-manifest.json
+/public/js
+/public/css
+
+# PHPUnit and testing
+phpunit.xml
+phpunit.xml.dist
+/tests/_output
+/tests/_logs
+
+# Laravel Telescope
+/storage/telescope
